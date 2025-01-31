@@ -6,13 +6,18 @@
 }
 nav{
     display: flex;
+    
 
+}
+header{
+    background-color: #add8e6;
 }
 .container{
     width: 200px;
     background-color: #daa520;
     
     
+    
 
 
 }
@@ -21,7 +26,9 @@ nav{
 
 
 
-
+section{
+    height: 300px;
+}
 
 
 
