@@ -5,45 +5,22 @@
 
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-}
-
-header {
-    background-color: #add8e6;
-    height: 70px;
-    padding: 20px 362px 70px;
-}
-
-/*section*/
-section {
-    padding-top: 53px;
-    padding-bottom: 55px;
-}
-
-
 /*da rimuovere dopo sviluppo*/
 .container {
     border: 1px dashed #000000;
 
 }
 
-/*container*/
-.container {
-    width: 911px;
-    height: 399px;
-    margin: 0 auto;
-
-
+/*header*/
+header {
+    background-color: #add8e6;
+    height: 70px;
+    padding: 20px 362px 70px;
 }
 
-div.container-logo {
-    background-color: #daa520;
-    border: 1px dashed #000000;
-    padding: 15px 13px;
-    width: 240px;
-
+nav {
+    display: flex;
+    justify-content: center;
 }
 
 #due {
@@ -56,8 +33,39 @@ div.container-logo {
     padding-left: 186px;
 }
 
+/*section*/
+section {
+    padding-top: 53px;
+    padding-bottom: 55px;
+}
+
+/*container*/
+div.container-logo {
+    background-color: #daa520;
+    border: 1px dashed #000000;
+    padding: 15px 13px;
+    width: 240px;
+
+}
+
+.container {
+    width: 911px;
+    height: 399px;
+    margin: 0 auto;
+    display: flex;
 
 
+}
+
+.bg-blue>div {
+    background-color: #ee82ee;
+}
+
+.bg-grey-1>div {
+    background-color: #228b22;
+    height: 900px;
+    width: 1200px;
+}
 /*utilities classes*/
 .bg-blue {
     background-color: #00008b;
@@ -70,6 +78,11 @@ div.container-logo {
 .bg-grey {
     background-color: #d3d3d3;
 }
+
+.bg-grey-1 {
+    background-color: #d3d3d3;
+}
+
 
 .bg-black {
     background-color: #23272a;
