@@ -1,15 +1,27 @@
 * {
-    margin 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
-header{
-    background-color: #add8e6;
+/*da rimuovere dopo sviluppo*/    
+
+
+/*conteiner*/
+.container{
+    width: 200px;
+}
+/*utilities classes*/
+.bg-blue{
+    background-color:#00008b;
+}
+.bg-white{
+    background-color:#ffffff;
+}
+.bg-grey{
+    background-color:#d3d3d3;
+}
+.bg-black{
+    background-color:#23272a;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
