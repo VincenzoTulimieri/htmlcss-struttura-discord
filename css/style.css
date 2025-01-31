@@ -4,13 +4,40 @@
     box-sizing: border-box;
     
 }
-/*da rimuovere dopo sviluppo*/    
+nav{
+    display: flex;
 
-
-/*conteiner*/
+}
 .container{
     width: 200px;
+    background-color: #daa520;
+    
+    
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*da rimuovere dopo sviluppo*/    
+nav .container{
+    border:1px dashed #000000;
+
+}
+
+/*container*/
+
+  
+
 /*utilities classes*/
 .bg-blue{
     background-color:#00008b;
