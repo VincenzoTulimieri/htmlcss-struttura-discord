@@ -6,9 +6,22 @@
 }
 
 /*da rimuovere dopo sviluppo*/
-.container {
-    border: 1px dashed #000000;
+#debug{
+    border: 2px dashed #000000;
+    height: 399px;
+    width: 911px;
 
+}
+.content{
+    border: 2px dashed #000000;
+}
+.content-two{
+    border: 2px dashed #000000;
+}
+.content-tree{
+    width: 360px;
+    height: 578px;
+    border: 2px dashed #000000;
 }
 
 /*header*/
@@ -24,8 +37,8 @@ nav {
 }
 
 #due {
-    flex-grow: 1;
-    padding-left: 266px;
+    flex-grow: 2;
+    text-align: center;
 
 }
 
@@ -42,29 +55,46 @@ section {
 /*container*/
 div.container-logo {
     background-color: #daa520;
-    border: 1px dashed #000000;
+    border: 2px dashed #000000;
     padding: 15px 13px;
     width: 240px;
-
 }
-
 .container {
-    width: 911px;
-    height: 399px;
     margin: 0 auto;
     display: flex;
-
+    justify-content: center;
+}
+.content{
+   height: 497px;
+   width: 720px;
+   background-color: #1e90ff;
+}   
+.content-two{
+    height: 497px;
+    width: 480px;
+    background-color: #ffc0cb;
 
 }
+.content-tree{
+    background-color: #f08080;
 
-.bg-blue>div {
-    background-color: #ee82ee;
 }
+.content-four{
+    display: flex;
+}
+
+
+
+
+
+
+
 
 .bg-grey-1>div {
     background-color: #228b22;
     height: 900px;
     width: 1200px;
+    border: 2px dashed #000000;
 }
 /*utilities classes*/
 .bg-blue {
@@ -83,7 +113,10 @@ div.container-logo {
     background-color: #d3d3d3;
 }
 
-
 .bg-black {
     background-color: #23272a;
+}
+
+.bg-blue>div {
+    background-color: #ee82ee;
 }
