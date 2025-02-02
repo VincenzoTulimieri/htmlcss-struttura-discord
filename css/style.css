@@ -25,25 +25,40 @@
 }
 
 /*header*/
-header {
+#intestazione{
     background-color: #add8e6;
-    height: 70px;
-    padding: 20px 362px 70px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
 }
 
 nav {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 70%;
+}
+#intestazione nav > div {
+    background-color: #daa520;
+    border: 2px dashed #000000;
+    padding: 15px 13px;
+    
+}
+.logo{
+    flex-grow: 1;
+    text-align: left;
+
 }
 
-#due {
+.link {
     flex-grow: 2;
     text-align: center;
 
 }
 
-#tre {
-    padding-left: 186px;
+.login{
+    flex-grow: 1;
+    text-align: right;
 }
 
 /*section*/
@@ -53,12 +68,6 @@ section {
 }
 
 /*container*/
-div.container-logo {
-    background-color: #daa520;
-    border: 2px dashed #000000;
-    padding: 15px 13px;
-    width: 240px;
-}
 .container {
     margin: 0 auto;
     display: flex;
