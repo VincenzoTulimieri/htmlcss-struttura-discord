@@ -6,26 +6,40 @@
 }
 
 /*da rimuovere dopo sviluppo*/
-#debug{
+#debug {
     border: 2px dashed #000000;
     height: 399px;
     width: 911px;
 
 }
-.content{
+
+.content {
     border: 2px dashed #000000;
 }
-.content-two{
+
+.content-two {
     border: 2px dashed #000000;
 }
-.content-tree{
+
+.content-tree {
     width: 360px;
     height: 578px;
     border: 2px dashed #000000;
 }
 
+.content-four {
+    height: 578px;
+    width: 841px;
+    border: 2px dashed #000000
+}
+
+.content-child {
+    border: 2px dashed #ffffff;
+    width: 210px;
+}
+
 /*header*/
-#intestazione{
+#intestazione {
     background-color: #add8e6;
     display: flex;
     justify-content: center;
@@ -38,13 +52,15 @@ nav {
     padding: 10px;
     width: 70%;
 }
-#intestazione nav > div {
+
+#intestazione nav>div {
     background-color: #daa520;
     border: 2px dashed #000000;
     padding: 15px 13px;
-    
+
 }
-.logo{
+
+.logo {
     flex-grow: 1;
     text-align: left;
 
@@ -56,10 +72,12 @@ nav {
 
 }
 
-.login{
+.login {
     flex-grow: 1;
     text-align: right;
 }
+
+/*main*/
 
 /*section*/
 section {
@@ -72,32 +90,37 @@ section {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+
 }
-.content{
-   height: 497px;
-   width: 720px;
-   background-color: #1e90ff;
-}   
-.content-two{
+
+.content {
+    height: 497px;
+    width: 720px;
+    background-color: #1e90ff;
+}
+
+.content-two {
     height: 497px;
     width: 480px;
     background-color: #ffc0cb;
 
 }
-.content-tree{
+
+.content-tree {
     background-color: #f08080;
 
 }
-.content-four{
+
+.content-four {
     display: flex;
+    justify-content: flex-start;
+
 }
 
+.content-child {
+    background-color: #20b2aa;
 
-
-
-
-
-
+}
 
 .bg-grey-1>div {
     background-color: #228b22;
@@ -105,6 +128,7 @@ section {
     width: 1200px;
     border: 2px dashed #000000;
 }
+
 /*utilities classes*/
 .bg-blue {
     background-color: #00008b;
